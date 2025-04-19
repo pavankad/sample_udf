@@ -32,7 +32,7 @@ def main():
 	bid.bid_currency='USD'
 
 	response.bids.append(bid)
-	fd2 = os.open("sample_write.bin", os.O_RDWR)
+	#fd2 = os.open("sample_write.bin", os.O_RDWR)
 	WriteResponseToFd(fd, response);
 
 	print(response)
