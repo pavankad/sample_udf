@@ -1,8 +1,8 @@
-gen-proto:
+text-proto:
 	rm -rf proto.pb
 	python3 text_to_protobuf.py ./samples/get_bid_request.pbtxt
 
-run-udf: gen-proto
+run-udf: text-proto
 	./run_udf.sh
 
 gen-udf:
