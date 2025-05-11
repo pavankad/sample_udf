@@ -2,7 +2,6 @@
 *.dist
 *.onefile-build
 *.bin
-*.py
 *.pyc
 *.zip
 *.pb
