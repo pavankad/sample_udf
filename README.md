@@ -19,7 +19,8 @@ export PATH="$PATH:$HOME/.local/bin"
 
 ## Steps to generate Binary
 
-Run commands specified in command.sh to generate protobuf header files
+- Run commands specified in command.sh to generate protobuf header files
+- Run nuitka to generate standalone binary as below
 ```
 python -m nuitka --standalone sample_udf.py 
 ```
